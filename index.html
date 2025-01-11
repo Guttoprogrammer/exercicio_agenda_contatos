@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourContacts!</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/images/telefone-com-fio.png" alt="telefone fixo com fio">
+            <h1>YourContacts!</h1>
+        </header>
+        <div id="formulario_tabela">
+            <form id="form-contacts">
+                <input type="text" placeholder="Nome" name="nome-contato" id="nome-contato" required>
+                <input type="tel" placeholder="Número" name="numero-contato" id="numero-contato" required>
+                <input type="email" placeholder="Email(Opcional)" name="email" id="email-contato">
+                <button type="submit">+Adicionar</button>
+            </form>
+                <div class="table_div">
+                    <table> 
+                        <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Número</th>
+                                    <th>Email</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            </tr>
+                        </tbody>
+                </table>
+        </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>    
+</body>
+</html>
